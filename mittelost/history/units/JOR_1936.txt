@@ -1,0 +1,99 @@
+﻿division_template = {
+	name = "Arab Legion"			
+
+	division_names_group = IRQ_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	priority = 0
+	is_locked = yes
+}
+
+division_template = {
+	name = "Trans-Jordan Frontier Force Cavalry Regiment"
+	division_names_group = ENG_CAV_02
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+       	}
+	priority = 0
+	is_locked = yes
+}
+
+division_template = {
+	name = "Trans-Jordan Frontier Force Mechanised Regiment"
+	division_names_group = ENG_CAV_02
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+	}
+	priority = 0
+	is_locked = yes
+}
+
+#division_template = {
+#	name = "Alfurqat Aljabalia"				# Mountain Division
+#
+#	division_names_group = IRQ_MTN_01
+#
+#	regiments = {
+#		mountaineers = { x = 0 y = 0 }
+#		mountaineers = { x = 0 y = 1 }
+#		mountaineers = { x = 0 y = 2 }	
+#		mountaineers = { x = 1 y = 0 }
+#		mountaineers = { x = 1 y = 1 }
+#		mountaineers = { x = 1 y = 2 }
+#	}
+#}
+
+
+units = {
+	##### Royal Iraqi Army #####
+	division = {
+		name = "Al Jeish al Arabi"
+		#division_name = {    # New syntax for compatibility with name lists
+		#	is_name_ordered = yes
+		#	name_order = 1
+		#}
+		location = 7151
+		division_template = "Arab Legion"	
+		start_experience_factor = 1
+		start_equipment_factor = 0.66
+
+	}
+	division= {	
+		name = "TJFF 1st Mechanised Regiment"
+		location = 7170
+		division_template = "Trans-Jordan Frontier Force Mechanised Regiment"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
+		start_experience_factor = 0.175
+		start_equipment_factor = 0.33
+
+	}
+	#CHAAAANGE TROOP PLACEMENTS AAAUGH
+	division= {	
+		name = "TJFF 1st Cavalry (Horsed) Regiment"
+		location = 7170
+		division_template = "Trans-Jordan Frontier Force Cavalry Regiment"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.33
+
+	}
+}
+
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "JOR"
+		}
+		requested_factories = 1
+		progress = 0.22
+		efficiency = 100
+	}
+}

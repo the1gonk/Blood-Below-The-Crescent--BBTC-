@@ -1,0 +1,32 @@
+state={
+	id=913
+	name="STATE_913"
+	provinces={
+		1088 10087 
+	}
+	history = {
+		owner = ALW
+		add_core_of = ALW
+		#add_claim_by = KUW
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+			1088 = {
+				naval_base = 3
+			}
+			10087 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			1088 10 
+		}
+		victory_points = {
+			10087 5 
+		}
+	}
+	manpower=440000
+	state_category = town
+	buildings_max_level_factor=1.000
+	local_supplies=5.000
+}

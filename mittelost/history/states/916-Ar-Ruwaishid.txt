@@ -1,0 +1,23 @@
+state={
+	id=916
+	name="STATE_916"
+	provinces={
+		1544 4440 
+	}
+	history={
+		owner = JOR
+		buildings = {
+			infrastructure = 1
+		}
+		
+		victory_points = {
+			4440 1 
+		}
+		add_core_of = JOR
+
+	}
+	state_category=wasteland
+	manpower=1
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

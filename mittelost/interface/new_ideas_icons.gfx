@@ -1,0 +1,22 @@
+spriteTypes = {
+
+
+	SpriteType = {
+		name = "GFX_idea_belgrave"
+		texturefile = "gfx/interface/ideas/belgrave.dds"
+
+	}
+
+	SpriteType = {
+		name = "GFX_idea_shiaconfl"
+		texturefile = "gfx/interface/ideas/shiaconfl.dds"
+
+	}
+
+	
+	SpriteType = {
+		name = "GFX_idea_SQUARE"
+		texturefile = "gfx/interface/ideas/SQUARE.dds"
+
+	}
+}

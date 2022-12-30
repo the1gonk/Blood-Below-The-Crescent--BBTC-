@@ -1,0 +1,18 @@
+ideas = {
+	country = {
+		belgrave = {
+			
+			picture = GFX_idea_belgrave
+			
+			allowed = {
+				always = no
+			}
+			
+			modifier = {
+				#stability_factor = 15 /// old
+				stability_weekly = 0.33
+				# party_popularity_stability_factor
+			}
+		}
+	}
+}

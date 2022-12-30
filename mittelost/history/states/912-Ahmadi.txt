@@ -1,0 +1,27 @@
+state={
+	id=912
+	name="STATE_912"
+	provinces={
+		13260 
+	}
+	resources={
+		oil=3.000
+	}
+	history = {
+		#owner = SAU
+		#add_core_of = KUW
+		add_claim_by = KUW
+		buildings = {
+			infrastructure = 1
+			#12702 = {
+		#		naval_base = 6
+		#
+		#	}
+		}
+	}
+	manpower=440000
+	state_category = rural
+	manpower=11111
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,24 @@
+state={
+	id=918
+	name="STATE_918"
+	provinces={
+		4486 
+	}
+	history={
+		owner = DRU
+		victory_points = {
+			4486 1 
+		}
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+
+		}
+		add_core_of = DRU
+
+	}
+	state_category=wasteland
+	manpower=56342
+	buildings_max_level_factor=1.000
+	local_supplies=3.000
+}

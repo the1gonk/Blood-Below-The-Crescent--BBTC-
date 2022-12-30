@@ -1,0 +1,31 @@
+state={
+	id=909
+	name="STATE_909"
+	provinces={
+		13257 
+	}
+	resources={
+		oil=15.000
+		#somebody help
+	}
+	history={
+		owner = BHR
+		add_core_of = BHR
+		victory_points = {
+			13257 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			13257 = {
+				naval_base = 1
+			}
+		}
+	}
+	
+
+	state_category=town
+	manpower=94137
+	buildings_max_level_factor=1.000
+	local_supplies=3.000
+}

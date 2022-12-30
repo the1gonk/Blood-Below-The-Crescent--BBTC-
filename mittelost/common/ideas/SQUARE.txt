@@ -1,0 +1,19 @@
+ideas = {
+	country = {
+		SQUARE = {
+			
+			picture = GFX_idea_SQUARE
+			
+			allowed = {
+				always = no
+			}
+			
+			modifier = {
+				#stability_factor = 15 /// old
+				fascism_drift = 0.03
+				custom_modifier_tooltip = tooltip_revolt
+				# party_popularity_stability_factor
+			}
+		}
+	}
+}

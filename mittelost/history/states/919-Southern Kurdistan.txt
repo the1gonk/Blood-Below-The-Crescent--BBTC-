@@ -1,0 +1,28 @@
+state={
+	id=919
+	name="STATE_919"
+
+	history={
+		owner = IRQ
+		buildings = {
+			infrastructure = 2
+
+		}
+		
+		victory_points = {
+			3916 3 
+		}
+		victory_points = {
+			6826 1 
+		}
+		add_core_of = KUR
+
+	}
+	state_category=pastoral
+	provinces={
+		3916 5014 6826 10811 
+	}
+	manpower=123444
+	buildings_max_level_factor=1.000
+	local_supplies=2.000
+}
